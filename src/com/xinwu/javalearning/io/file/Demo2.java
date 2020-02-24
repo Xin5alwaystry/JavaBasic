@@ -8,8 +8,8 @@ import java.io.File;
 public class Demo2 {
     // /Users/xin5/Desktop/testdir/test.txt
     public static void main(String[] args) {
-        String absolutePath = "/Users/xin5/Desktop/testdir/text.txt";
-        String parentPath = "/Users/xin5/Desktop/testdir";
+        String absolutePath = "/Users/xin5/Desktop/develop/testdir/text.txt";
+        String parentPath = "/Users/xin5/Desktop/develop/testdir";
         String fileName = "text.txt";
         //1,用绝对路径获取文件对象
         File a = new File(absolutePath);
