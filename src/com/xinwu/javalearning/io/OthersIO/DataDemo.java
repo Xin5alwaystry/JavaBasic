@@ -3,7 +3,7 @@ package com.xinwu.javalearning.io.OthersIO;
 import java.io.*;
 
 /**
- * DataInputStream DataOutputStream 用于读取基本类型和String类型，写入和读取顺序需要相同
+ * DataInputStream DataOutputStream 用于读取基本类型和String类型， 写入和读取顺序需要相同
  */
 public class DataDemo {
     public static void main(String[] args) {
