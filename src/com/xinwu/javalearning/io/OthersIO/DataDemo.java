@@ -21,10 +21,12 @@ public class DataDemo {
         File src = new File(srcPath);
         //确定流
         DataInputStream dis = new DataInputStream(new BufferedInputStream(new FileInputStream(src)));
+        //写数据
         boolean flag = dis.readBoolean();
         double pi = dis.readDouble();
         String test = dis.readUTF();
-
+        //关闭资源
+        dis.close();
         System.out.println(String.format("%s--%s--%s", flag, pi, test));
     }
 
